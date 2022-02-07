@@ -29,7 +29,6 @@ body{
     border-radius: 20px;
 }
 .second-section{
-    height: 500px;
     margin-top: 20px;
 }
 .top{
@@ -138,4 +137,12 @@ li{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+#heart{
+    color:red;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
 }
