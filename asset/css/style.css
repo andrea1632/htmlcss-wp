@@ -18,9 +18,6 @@ body{
     margin: auto;
     height: 100vh;
 }
-main{
-    height: 800px;
-}
 .first-section{
     position: relative;
     width: 100%;
@@ -47,8 +44,6 @@ main{
 }
 .mid{
     width: calc(50% - 20px);
-    background-color: lightblue;
-    height: calc(80% - 40px);
     float: left;
     margin-left: 10px;
     margin-top: 20px;
@@ -56,7 +51,6 @@ main{
 }
 .right{
     width:25%;
-    background-color: lightblue;
     height: calc(80% - 40px);
     float: left;
     margin-left: 10px;
@@ -118,9 +112,30 @@ li{
     position: relative;
     border-radius: 20px;
 }
-.left p{
+.left p,
+.mid p,
+.right p{
     color: rgb(172, 172, 172);
 }
-.left h5{
+.left h5,
+.mid h5,
+.right h5{
     margin: 15px 0;
+}
+.bg-img2{
+    background-image: url(../img/banner-2.jpg);
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.bg-img3{
+    background-image: url(../img/img-3.jpg);
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
