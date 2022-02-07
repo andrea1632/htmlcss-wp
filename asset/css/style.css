@@ -59,6 +59,7 @@ body{
 
 #logo{
     height: 100px;
+    cursor: pointer;
 }
 ul{
     list-style: none;
@@ -73,6 +74,9 @@ a{
 li{
     display: inline-block;
     margin-right: 10px;
+}
+li:hover{
+    padding:0 10px;
 }
 .overlay{
     position: absolute;
