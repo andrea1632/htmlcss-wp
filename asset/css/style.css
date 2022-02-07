@@ -33,19 +33,15 @@ main{
 }
 .second-section{
     height: 500px;
-    background-color: blue;
     margin-top: 20px;
 }
 .top{
     width: 100%;
-    background-color: lightblue;
-    height: 20%;
 }
 .left{
     height: calc(80% - 40px);
     margin-bottom: 20px;
     width: 25%;
-    background-color: lightblue;
     float: left;
     margin-top: 20px;
 }
@@ -67,11 +63,7 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-footer{
-    height: 50px;
-    background-color: blueviolet;
-    margin-top: 40px;
-}
+
 #logo{
     height: 100px;
 }
@@ -109,4 +101,26 @@ li{
 .text h5{
     font-size: 2em;
     font-weight: 300;
+}
+.top div span{
+    color: rgb(172, 172, 172);
+}
+.top div{
+    padding:20px 0;
+}
+.top div h2{
+    font-size: 2em;
+}
+.bg-img1{
+    background-image: url(../img/img-1.jpg);
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+.left p{
+    color: rgb(172, 172, 172);
+}
+.left h5{
+    margin: 15px 0;
 }
